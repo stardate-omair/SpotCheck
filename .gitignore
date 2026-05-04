@@ -1,0 +1,30 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE temp files
+*.bak
+.ino.globals.h
+
+# KiCad backup and cache files
+*.000
+*.bck
+fp-info-cache
+*.kicad_prl
+*-backups/
+
+# Fusion 360 local project files
+*.f3d
+*.f3z
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
